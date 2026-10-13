@@ -168,7 +168,7 @@ def generate_control_card():
             html.Div(
                 id="campo-slider",
                 children=[
-                    html.P("Ingrese horas a proyectar:"),
+                    html.P("Ingrese horas a proyectar (máximo 119):"),
                     dcc.Slider(
                         id="slider-proyeccion",
                         min=0,
